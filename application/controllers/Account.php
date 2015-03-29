@@ -133,7 +133,6 @@ class Account extends Application
 
         $upload_path = $config['upload_path'] . $config['file_name'];
         $this->load->library('upload', $config);
-
         
         
         if ( ! $this->upload->do_upload())
